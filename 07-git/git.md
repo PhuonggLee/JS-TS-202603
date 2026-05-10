@@ -15,6 +15,17 @@ b2: kiểm tra trang thái file
 git status
 No commits yet -> git đã dc bât trong folder nhưng chưa tạo dc mốc lưu đâù tiên.
 b3: git add tên file (or tên folder)
-git add. => chọn tất cả cá files đang thay đổi trong project 
+git add . => chọn tất cả cá files đang thay đổi trong project 
 b4: tạo commit đầu tiên 
-git commit - m "nôi dung mô tả commit"
+git commit - m "nôi dung mô tả commit".
+b5: đặt tên nhánh chính là main
+git branch -M main
+b7: push đẩy code
+git push -u origin main
+u chính là upstream 
+---
+Cách đặt tên commit:
++V-Nội dung thay đổi
+eg: add login test, remove role
++Type- nôi dun thay đổi
+eg: docs-update git lession, feat-add product search
